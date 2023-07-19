@@ -1,0 +1,72 @@
+import React from 'react';
+import myImage from '../assets/profile1.png';
+import { BiLogoPython,BiLogoReact,BiLogoCss3,BiLogoTailwindCss,BiLogoRedux,BiLogoJavascript } from "react-icons/bi";
+import { AiOutlineHtml5 } from "react-icons/ai";
+
+const Home = () => {
+
+  return (
+    <div name="home" className="h-screen w-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full">
+        <div className="flex flex-col sm:flex-row">
+          <div>
+            <div
+              className="rounded-full overflow-hidden h-52 w-52 mr-6 md:w-52 md:h-52 "
+              style={{
+                clipPath: 'ellipse(80% 70% at 50% 50%)',
+                position: 'relative',
+                boxShadow: '0 0 20px rgba(0, 0, 0, 0.3)',
+                marginTop: '-10px', 
+                marginLeft : 7
+              }}
+            >
+              <div
+                className="absolute inset-0 border-4 border-blue-800 rounded-full animate-pulse"
+                style={{ clipPath: 'ellipse(80% 70% at 50% 50%)', position: 'absolute' }}
+              ></div>
+              <img src={myImage} alt="my profile" className="h-full w-full object-cover bg-gray-200" />
+            </div>
+          </div>
+
+          <div>
+            <h1 className="text-4xl font-extrabold">
+              <span>Front-End React</span>
+              <br />
+              <span>Developer</span>
+            </h1>
+            <p className="mt-4 font-medium">
+              Hi, I'm Prantozit Saha Parizat. A passionate <br />
+              Front-End React Developer.
+            </p>
+            <div className="mt-3">
+              <a className="text-2xl mr-3" href="mailto:parijatsaha435@gmail.com" target="_blank" rel="noreferrer">
+                <i class="uil uil-envelope-alt"></i>
+              </a>
+              <a className="text-2xl mr-3" href="https://github.com/pranto322" target="_blank" rel="noreferrer">
+                <i class="uil uil-github"></i>
+              </a>
+              <a className="text-2xl" href="https://www.linkedin.com/in/prantozit-saha-parizat/" target="_blank" rel="noreferrer">
+                <i class="uil uil-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='flex flex-row justify-center items-center mr-5 mt-10'>
+          <h1 className='font-bold mr-16 ' > Tech Stack <span className='ml-10 text-gray-500 font-extrabold'>|</span> </h1>
+          
+      
+          <AiOutlineHtml5 className='text-2xl ml-10 mr-5 cursor-pointer' title='Html' />
+          <BiLogoCss3 className='text-2xl mr-5 cursor-pointer' title='Css'/>
+          <BiLogoTailwindCss className='text-2xl mr-5 cursor-pointer' title='TailwindCss' />
+          <BiLogoJavascript className='text-2xl mr-5 cursor-pointer' title='JavaScript'/>
+          <BiLogoReact className='text-2xl mr-5 cursor-pointer' title='React'/>
+          <BiLogoRedux className='text-2xl mr-5 cursor-pointer' title='Redux' />
+          <BiLogoPython className='text-2xl  cursor-pointer' title='Python'/>         
+        </div>
+        
+      </div>
+    </div>
+  );
+};
+
+export default Home;

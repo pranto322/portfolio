@@ -6,17 +6,17 @@ import { Tooltip } from 'react-tooltip';
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center p-3">
-      <div className="flex flex-col">
-        <div className="flex flex-col md:flex-row">
+    <div className="min-h-screen flex justify-center items-center px-3">
+      <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col md:flex-row justify-center items-center">
           <div >
             <div
-              className="rounded-full overflow-hidden h-52 w-52 mr-6 md:w-52 md:h-52"
+              className="rounded-full overflow-hidden h-52 w-52 md:mr-6 md:w-52 md:h-52"
               style={{
                 clipPath: 'ellipse(80% 70% at 50% 50%)',
                 position: 'relative',
                 boxShadow: '0 0 20px rgba(0, 0, 0, 0.3)',
-                marginLeft: 7,
+                //marginLeft: 7,
              
               }}
             >
@@ -28,9 +28,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div>
-            <h1 className="text-4xl font-extrabold mt-5">
-              <span>Front-End React</span>
+          <div className='mr-8 md:ml-8'>
+            <h1 className="text-4xl font-extrabold mt-5 ">
+              <span className=''>Front-End React</span>
               <br />
               <span>Developer</span>
             </h1>
@@ -51,13 +51,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-row  md:mt-10 mt-5 mx-auto mr-10 flex-wrap'>
-          <h1 className='font-bold mr-3 md:ml-11  '> Tech Stack <span className=' text-gray-500 font-extrabold md:ml-10 md:mr-5 '>|</span> </h1>
+        <div className='flex flex-row md:ml-10 md:mr-20 mr-4  md:mt-10  mt-5 mx-auto  flex-wrap'>
+          <h1 className='font-bold md:mr-10'> Tech Stack <span className=' text-gray-500 font-extrabold md:ml-10 md:mr-10  '>|</span> </h1>
           <button
             data-tooltip-id="tooltip-Html"
             data-tooltip-content="Html"
           >
-            <AiOutlineHtml5 className='text-2xl md:ml-8 mr-3  md:mr-5 cursor-pointer' />
+            <AiOutlineHtml5 className='text-2xl  mr-3  md:ml-12 cursor-pointer' />
           </button>
           <Tooltip
             id="tooltip-Html"

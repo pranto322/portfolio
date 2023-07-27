@@ -6,7 +6,7 @@ import { Tooltip } from 'react-tooltip';
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center px-3">
+    <div name='home' className="min-h-screen w-full flex justify-center items-center px-3 -mt-20 md:mt-10 ">
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div >

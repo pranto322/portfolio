@@ -10,7 +10,7 @@ import Modal from './Modal';
 const Projects = () => {
   const [showModal, setShowModal] = useState(false)
   return (
-    <div className='min-h-screen w-full justify-center items-center p-3 '>
+    <div name='project' className='min-h-max w-full justify-center items-center p-3 md:pt-20   '>
       
 
       <div className='flex flex-col md:justify-center md:items-center'>
@@ -78,7 +78,7 @@ const Projects = () => {
 
 
         </div>
-        <div className='flex flex-col  md:flex-row-reverse justify-center items-center mt-10 md:-mt-3 '>
+        <div className='flex flex-col  md:flex-row-reverse justify-center items-center  md:-mt-3 '>
           <div className='rounded-2xl h-56 w-64 md:mr-10 mb-5 md:mt-10 '>
             <img src={tour} alt="tour plan" className='h-56 w-64 rounded-lg bg-green-100' />
           </div>

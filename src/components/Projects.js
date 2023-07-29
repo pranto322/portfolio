@@ -14,7 +14,7 @@ const Projects = () => {
       
 
       <div className='flex flex-col md:justify-center md:items-center'>
-        <h1 className='font-bold text-2xl underline underline-offset-8 ml-3 mt-5  '>Projects</h1>
+        <h1 className='font-bold text-2xl underline underline-offset-8 ml-3  '>Projects</h1>
         
         {/* <p className='font-semibold'>Here are some demo works of mine showcasing below</p> */}
         <div className='flex flex-col md:flex-row justify-center items-center mt-5'>
@@ -78,7 +78,7 @@ const Projects = () => {
 
 
         </div>
-        <div className='flex flex-col  md:flex-row-reverse justify-center items-center  md:-mt-3 '>
+        <div className='flex flex-col  md:flex-row-reverse justify-center items-center mt-10  md:-mt-3 '>
           <div className='rounded-2xl h-56 w-64 md:mr-10 mb-5 md:mt-10 '>
             <img src={tour} alt="tour plan" className='h-56 w-64 rounded-lg bg-green-100' />
           </div>

@@ -82,7 +82,7 @@ const About = () => {
               </p>
               <p className='font-medium md:w-4/5 flex flex-row justify-center'>
                 <AiFillCheckCircle className='text-xl mr-3' />
-                Successfully converted Figma design to a beautiful and functional website.
+                Proficiently translated Figma designs into a visually stunning and fully functional webpage
               </p>
               <p className='font-medium md:w-4/5 flex flex-row justify-center'>
                 <AiFillCheckCircle className='text-2xl mr-3' />

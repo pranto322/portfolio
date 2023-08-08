@@ -31,10 +31,9 @@ const About = () => {
             About Me
           </h1>
           <p className='font-medium mt-5 md:ml-3 px-3 '>
-            As a junior web developer, I'm skilled in HTML, CSS, JavaScript,
-            Tailwind CSS, React, and Redux. I create responsive websites that
-            deliver exceptional user experiences. My coding is clean and collaborative, and I'm passionate about staying updated with the latest technologies.
-            Whether working in a team or independently, I excel and consistently deliver outstanding results for any web development project.
+          I'm Prantozit Saha Parizat, a Frontend Developer with a passion for creating exceptional user experiences. Proficient in HTML, CSS, JavaScript, Tailwind CSS, React, and Redux, I specialize in crafting responsive websites with clean code and a collaborative mindset.
+
+My dedication to staying up-to-date with the latest technologies fuels my drive for innovation. Beyond web development, I'm intrigued by the world of data and data visualization. From predictive analysis to insightful result interpretation, I believe data has the power to drive informed decisions.
           </p>
           <div className='mt-5 flex md:ml-3 px-3 '>
             <h1

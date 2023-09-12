@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import bookstore from '../assets/bookhouse.png'
 import movie from '../assets/movie.png';
 import machine from '../assets/machine learning.png';
 import tour from '../assets/tour.png'
 
-import Modal from './Modal';
+
 
 
 const Projects = () => {
-  const [showModal, setShowModal] = useState(false)
+  
   return (
     <div name='project' className='min-h-max w-full justify-center items-center p-3 md:pt-20   '>
       
@@ -43,15 +43,15 @@ const Projects = () => {
             <img src={bookstore} alt="book club" className='h-56 w-64 rounded-lg bg-green-100' />
           </div>
           <div className='md:w-2/5 px-3 md:mr-10 mt-10 '>
-            <h1 className='font-semibold mb-2 '>Book Store</h1>
+            <h1 className='font-semibold mb-2 '>Book House</h1>
             <p className='font-medium mb-2 '>
-            Bookstore is a React.js web application for book enthusiasts, featuring a user-friendly interface and efficient search functionality. Users can explore and purchase books based on titles, authors, or genres. The app uses Tailwind CSS for
+            BookHouse is a React.js web application for book enthusiasts, featuring a user-friendly interface and efficient search functionality. Users can explore and purchase books based on titles, authors, or genres. The app uses Tailwind CSS for
             an appealing design and context API for smooth state management, ensuring a seamless shopping experience.
               
             </p>
-            <a href="https://github.com/pranto322/BookStore" target="_blank" rel="noreferrer" className='font-bold' >Code<i className="uil uil-github text-2xl mt-2" ></i></a>
-            <span className='font-bold ml-10 cursor-pointer' onClick={() => setShowModal(true)}>Live Demo <i className="uil uil-external-link-alt text-2xl mt-2"></i></span>
-             {showModal && <Modal setShowModal={setShowModal}/>}
+            <a href="https://github.com/pranto322/BooksHouse" target="_blank" rel="noreferrer" className='font-bold' >Code<i className="uil uil-github text-2xl mt-2" ></i></a>
+            <a href="https://bookshouse21.netlify.app/" target="_blank" rel="noreferrer" className='font-bold ml-10' >Live Demo<i className="uil uil-external-link-alt text-2xl mt-2"></i></a>
+             
           </div>
           
 

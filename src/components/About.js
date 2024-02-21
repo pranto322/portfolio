@@ -31,9 +31,7 @@ const About = () => {
             About Me
           </h1>
           <p className='font-medium mt-5 md:ml-3 px-3 '>
-          I'm Prantozit Saha Parizat, a Frontend Developer with a passion for creating exceptional user experiences. Proficient in HTML, CSS, JavaScript, Tailwind CSS, React, and Redux, I specialize in crafting responsive websites with clean code and a collaborative mindset.
-
-My dedication to staying up-to-date with the latest technologies fuels my drive for innovation. Beyond web development, I'm intrigued by the world of data and data visualization. From predictive analysis to insightful result interpretation, I believe data has the power to drive informed decisions.
+          Previously crafting exceptional user experiences as a frontend developer, I'm Prantozit Saha Parizat, now ignited by the power of data. I leverage my analytical flair and technical skills to unearth insights from complex datasets, guiding informed decisions and enriching user interactions. My passion lies in translating data into compelling narratives, bridging the gap between numbers and impactful design solutions.
           </p>
           <div className='mt-5 flex md:ml-3 px-3 '>
             <h1
@@ -71,10 +69,30 @@ My dedication to staying up-to-date with the latest technologies fuels my drive 
             </div>
           )}
           {experience && (
+            
             <div className='mt-3 md:ml-3 px-3 '>
+              <h1 className='font-semibold'>Jr Data Analyst</h1>
+              <p className='font-medium'>Apon Bazaar</p>
+              <p className='font-medium'>November,2023 - Present</p>
+              <p className='font-medium md:w-4/5 flex flex-row justify-center mt-3'>
+                <AiFillCheckCircle className='text-2xl mr-3' />
+                Conducted in depth analysis of operational data to extract valuable insights and enhance decision making
+                processes.
+              </p>
+              <p className='font-medium md:w-4/5 flex flex-row justify-center'>
+                <AiFillCheckCircle className='text-xl mr-3' />
+                Performed comprehensive day to day and monthly analysis of sales data, uncovering trends and patterns to
+                inform strategic business decisions.
+              </p>
+              <p className='font-medium md:w-4/5 flex flex-row justify-center'>
+                <AiFillCheckCircle className='text-2xl mr-3' />
+                Developed interactive dashboard susing SQL and PowerBI,providing visually compelling representations of key
+                performance indicators for quick and informed decision making.
+              </p>
+
               <h1 className='font-semibold'>Frontend Developer Intern</h1>
               <p className='font-medium'>Care-Box Limited</p>
-              <p className='font-medium'>May,2023 - Present</p>
+              <p className='font-medium'>June,2023 - October,2023</p>
               <p className='font-medium md:w-4/5 flex flex-row justify-center mt-3'>
                 <AiFillCheckCircle className='text-2xl mr-3' />
                 Gained experience in developing cross-platform mobile applications using React Native.

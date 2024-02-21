@@ -1,8 +1,11 @@
 import React from 'react';
 import myImage from '../assets/profile1.png';
-import { BiLogoPython, BiLogoReact, BiLogoCss3, BiLogoTailwindCss, BiLogoRedux, BiLogoJavascript } from "react-icons/bi";
-import { AiOutlineHtml5 } from "react-icons/ai";
+import { BiLogoPython, BiLogoReact, BiLogoRedux, BiLogoJavascript } from "react-icons/bi";
+//import { AiOutlineHtml5 } from "react-icons/ai";
+import { TbSql } from "react-icons/tb";
+import { SiGooglesheets } from "react-icons/si";
 import { Tooltip } from 'react-tooltip';
+import { SiPowerbi } from "react-icons/si";
 
 const Home = () => {
   return (
@@ -30,13 +33,13 @@ const Home = () => {
 
           <div className='mr-8 md:ml-8'>
             <h1 className="text-4xl font-extrabold mt-5 ">
-              <span className=''>Front-End React</span>
+              <span className=''>Data Analytics </span>
               <br />
-              <span>Developer</span>
+              <span>Professional</span>
             </h1>
             <p className="mt-4 font-medium ">
-              Hi, I'm Prantozit Saha Parizat. A passionate <br />
-              Front-End React Developer.
+              Hi, I'm Prantozit Saha Parizat. A data enthusiast <br />
+              with a passion for uncovering insights from complex datasets.
             </p>
             <div className="mt-3">
               <a className="text-2xl mr-3" href="mailto:parijatsaha435@gmail.com" target="_blank" rel="noreferrer">
@@ -51,13 +54,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-row md:ml-10 md:mr-20 mr-4  md:mt-10  mt-5 mx-auto  flex-wrap'>
-          <h1 className='font-bold md:mr-10'> Tech Stack <span className=' text-gray-500 font-extrabold md:ml-10 md:mr-10  '>|</span> </h1>
+        <div className='flex flex-row mr-4 md:mr-20  md:mt-10  mt-5   flex-wrap'>
+          <h1 className='font-bold md:mr-8'> Tech Stack <span className=' text-gray-500 font-extrabold md:mr-10 md:ml-20 '>|</span> </h1>
           <button
             data-tooltip-id="tooltip-Html"
-            data-tooltip-content="Html"
+            data-tooltip-content="Power BI"
           >
-            <AiOutlineHtml5 className='text-2xl  mr-3  md:ml-12 cursor-pointer' />
+            <SiPowerbi className='text-xl  mr-5  cursor-pointer' />
           </button>
           <Tooltip
             id="tooltip-Html"
@@ -65,10 +68,21 @@ const Home = () => {
             place='bottom'
           />
           <button
-            data-tooltip-id="tooltip-Css"
-            data-tooltip-content="Css"
+            data-tooltip-id="tooltip-Python"
+            data-tooltip-content="Python"
           >
-            <BiLogoCss3 className='text-2xl md:mr-5 mr-3 cursor-pointer' />
+            <BiLogoPython className='text-2xl  cursor-pointer md:mr-5' />
+          </button>
+          <Tooltip
+            id="tooltip-Python"
+            style={{ backgroundColor: "#ffffcc", color: "#222", borderRadius: 10, fontWeight: '600' }}
+            place='bottom'
+          />
+          <button
+            data-tooltip-id="tooltip-Css"
+            data-tooltip-content="MySQL"
+          >
+            <TbSql className='text-2xl md:mr-5 mr-3 cursor-pointer' />
           </button>
           <Tooltip
             id="tooltip-Css"
@@ -77,9 +91,9 @@ const Home = () => {
           />
           <button
             data-tooltip-id="tooltip-TailwindCss"
-            data-tooltip-content="TailwindCss"
+            data-tooltip-content="Google Sheets"
           >
-            <BiLogoTailwindCss className='text-2xl md:mr-5 mr-3 cursor-pointer' />
+            <SiGooglesheets className='text-2xl md:mr-5 mr-3 cursor-pointer' />
           </button>
           <Tooltip
             id="tooltip-TailwindCss"
@@ -119,17 +133,7 @@ const Home = () => {
             style={{ backgroundColor: "#ffffcc", color: "#222", borderRadius: 10, fontWeight: '600' }}
             place='bottom'
           />
-          <button
-            data-tooltip-id="tooltip-Python"
-            data-tooltip-content="Python"
-          >
-            <BiLogoPython className='text-2xl  cursor-pointer md:mr-5' />
-          </button>
-          <Tooltip
-            id="tooltip-Python"
-            style={{ backgroundColor: "#ffffcc", color: "#222", borderRadius: 10, fontWeight: '600' }}
-            place='bottom'
-          />
+          
         </div>
       </div>
     </div>

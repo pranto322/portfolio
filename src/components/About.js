@@ -71,6 +71,21 @@ const About = () => {
           {experience && (
             
             <div className='mt-3 md:ml-3 px-3 '>
+              <h1 className='font-semibold'> Data Analyst</h1>
+              <p className='font-medium'>Tallykhata</p>
+              <p className='font-medium'>May,2024 - Present</p>
+              <p className='font-medium md:w-4/5 flex flex-row justify-center mt-3'>
+                <AiFillCheckCircle className='text-2xl mr-3' />
+                Collaborate with Growth and Marketing team to deliver actionable insights that guide campaign targeting and performance optimization.
+              </p>
+              <p className='font-medium md:w-4/5 flex flex-row justify-center'>
+                <AiFillCheckCircle className='text-xl mr-3' />
+                Developed and maintained interactive dashboards using Google Looker Studio and PostgreSQL, providing clear visibility into key daily, weekly, and monthly business metrics.
+              </p>
+              <p className='font-medium md:w-4/5 flex flex-row justify-center'>
+                <AiFillCheckCircle className='text-2xl mr-3' />
+                Automated recurring reporting processes using Python,including seamless integration with Google Sheets for auto distribution of reports to stakeholders.
+              </p>
               <h1 className='font-semibold'>Jr Data Analyst</h1>
               <p className='font-medium'>Apon Bazaar</p>
               <p className='font-medium'>November,2023 - Present</p>
@@ -90,7 +105,7 @@ const About = () => {
                 performance indicators for quick and informed decision making.
               </p>
 
-              <h1 className='font-semibold'>Frontend Developer Intern</h1>
+              {/* <h1 className='font-semibold'>Frontend Developer Intern</h1>
               <p className='font-medium'>Care-Box Limited</p>
               <p className='font-medium'>June,2023 - October,2023</p>
               <p className='font-medium md:w-4/5 flex flex-row justify-center mt-3'>
@@ -104,7 +119,7 @@ const About = () => {
               <p className='font-medium md:w-4/5 flex flex-row justify-center'>
                 <AiFillCheckCircle className='text-2xl mr-3' />
                 Worked independently and as part of a team to achieve solutions for complex problems.
-              </p>
+              </p> */}
             </div>
           )}
         </div>

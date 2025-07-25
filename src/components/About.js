@@ -31,7 +31,10 @@ const About = () => {
             About Me
           </h1>
           <p className='font-medium mt-5 md:ml-3 px-3 '>
-          Previously crafting exceptional user experiences as a frontend developer, I'm Prantozit Saha Parizat, now ignited by the power of data. I leverage my analytical flair and technical skills to unearth insights from complex datasets, guiding informed decisions and enriching user interactions. My passion lies in translating data into compelling narratives, bridging the gap between numbers and impactful design solutions.
+          Data Analyst with a strong foundation in SQL, Python, and BI tools such as Google Looker Studio and Power BI,
+with hands‑on experience in reporting automation, dashboard development, and data‑driven strategy execution.
+Proven track record in supporting growth, marketing, and product teams with actionable insights and scalable
+solutions.
           </p>
           <div className='mt-5 flex md:ml-3 px-3 '>
             <h1

@@ -31,10 +31,7 @@ const About = () => {
             About Me
           </h1>
           <p className='font-medium mt-5 md:ml-3 px-3 '>
-          Data Analyst with a strong foundation in SQL, Python, and BI tools such as Google Looker Studio and Power BI,
-with hands‑on experience in reporting automation, dashboard development, and data‑driven strategy execution.
-Proven track record in supporting growth, marketing, and product teams with actionable insights and scalable
-solutions.
+          Data Analyst with a strong foundation in SQL, Python, and BI tools such as Google Looker Studio and Power BI,with hands on experience in reporting automation, dashboard development, and data driven strategy execution.Proven track record in supporting growth, marketing, and product teams with actionable insights and scalable solutions.
           </p>
           <div className='mt-5 flex md:ml-3 px-3 '>
             <h1
